@@ -28,8 +28,8 @@ One possible cause of vascular dynamics perturbations is alterations in the auto
    - Using the previously displayed metrics, identify the timings of possible ANS perturbations and determine which ANS branch (sympathetic or parasympathetic) is most dominant during each perturbation.
 
 **5. Stressful Stimuli Alterations in Vascular Dynamics**
-ANS perturbations can be induced through experimental stimuli, such as psychosocial or physical stressors.
-   - Compare the visually identified ANS perturbations with the actual stimuli from the stimuli.csv file.
+ANS perturbations can be induced through experimental stimuli, such as psychosocial or physical stressors. In the stressor.csv file, you will find two arrays: (1) "timestamp (s)" refers to the elapsed time from the beggining of the experimental (already synchronized with "Time (s)" in the Finometer files), and; (2) "stimuli" that specifies timings out of stress (zeros) and under stress (ones).
+   - Compare the visually identified ANS perturbations with the actual stimuli from the stressor.csv file.
    - Display the cropped time series around twenty seconds before and sixty seconds after the stimulus. Repeat this process for each stimulus and each metric.
 
 **6. Understanding the Average Response**
